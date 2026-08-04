@@ -10,7 +10,7 @@ Since the use of standard C library functions is strictly forbidden in most 42 p
 * **Duration:** [Oct 2024] - [Nov 2024]
 
 ## 💯 Final Grade
-* **[100] / 100** 
+* **100 / 100** 
 
 ## 💡 What I Learned
 Through this project, I developed a strong foundation in C programming, specifically focusing on:
