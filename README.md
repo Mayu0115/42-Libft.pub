@@ -6,6 +6,13 @@ The goal of this project is to recreate a custom C library from scratch, encompa
 
 Since the use of standard C library functions is strictly forbidden in most 42 projects, this custom library serves as the foundational toolkit for all future assignments, providing a deep understanding of memory management, pointers, and data structures.
 
+## Build
+You can compile the library using the included Makefile:
+* `make` - Compiles the source files and generates the static library (`libft.a`).
+* `make clean` - Removes the object files.
+* `make fclean` - Removes the object files and the generated `libft.a` library.
+* `make re` - Re-compiles the entire project from scratch.
+
 ##  Timeline
 * **Duration:** [Oct 2024] - [Nov 2024]
 
