@@ -13,6 +13,19 @@ You can compile the library using the included Makefile:
 * `make fclean` - Removes the object files and the generated `libft.a` library.
 * `make re` - Re-compiles the entire project from scratch.
 
+## How to Test / Use
+Since this project builds a static library rather than a standalone executable, you can test it by linking `libft.a` with your own `main.c` file:
+```bash
+# 1. Build the library
+make
+
+# 2. Compile your test file with the library
+cc main.c libft.a -o test
+
+# 3. Run the executable
+./test
+```
+
 ##  Timeline
 * **Duration:** [Oct 2024] - [Nov 2024]
 
